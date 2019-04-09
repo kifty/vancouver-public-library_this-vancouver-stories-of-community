@@ -38,9 +38,7 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;This ebook is a collection of transcripts from interviews of people from around the city. The audio from these interviews is part of the This Vancouver.&lt;/p&gt;
-		</meta>
+		<meta id="long-description" property="se:long-description" refines="#description"> &lt;p&gt;This ebook is a collection of transcripts from interviews of people from around the city. The audio from these interviews is part of the This Vancouver.&lt;/p&gt; </meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>LINK</dc:source>
