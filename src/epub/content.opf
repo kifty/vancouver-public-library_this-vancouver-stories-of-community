@@ -30,32 +30,49 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">This Vancouver</dc:title>
 		<meta property="file-as" refines="#title">This Vancouver</meta>
-		<dc:subject id="subject-1">Vancouver history</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Stories of Community</dc:title>
+		<meta property="file-as" refines="#subtitle">Stories of Community</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">This Vancouver: Stories of Community</dc:title>
+		<meta property="file-as" refines="#fulltitle">This Vancouver</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Vancouver (B.C.) -- History</dc:subject>
 		<dc:subject id="subject-2">Oral history</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<dc:description id="description">This ebook is a collection of transcripts from interviews of people from around the city. The audio from these interviews is part of the This Vancouver.</dc:description>
+		<meta property="meta-auth" refines="#subject-2">http://id.loc.gov/authorities/subjects/sh85095238.html</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<dc:description id="description">This ebook is a collection of transcripts from interviews of people from around Vaoucouver, British Columbia, Canada.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"> &lt;p&gt;This ebook is a collection of transcripts from interviews of people from around the city. The audio from these interviews is part of the This Vancouver.&lt;/p&gt; </meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;This ebook is a collection of transcripts from interviews of people from around the city. The audio from these interviews is part of the This Vancouver collection.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>LINK</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1308</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1346</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1131</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1469</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1082</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1167</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:903</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:890</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:955</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1462</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:983</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:110</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:973</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1224</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOKWIKILINK</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/vancouver-public-library_this-vancouver</meta>
 		<dc:creator id="author">Vancouver Public Library</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Vancouver Public Library</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Vancouver_Public_Library</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHORNACOAFLINK</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Jon Whipple</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<meta property="file-as" refines="#artist">Whipple, Jon</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
@@ -75,6 +92,8 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+		<item href="images/cover.source.jpg" id="cover.source.jpg" media-type="image/jpeg"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
@@ -94,6 +113,7 @@
 		<item href="text/chapter-14.xhtml" id="chapter-14.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-15.xhtml" id="chapter-15.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
@@ -116,6 +136,7 @@
 		<itemref idref="chapter-13.xhtml"/>
 		<itemref idref="chapter-14.xhtml"/>
 		<itemref idref="chapter-15.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
