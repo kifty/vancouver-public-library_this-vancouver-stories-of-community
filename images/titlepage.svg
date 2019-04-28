@@ -12,6 +12,10 @@
 			font-size: 93.56725311px;
 		}
 
+		.title-small{
+			font-size: 70.17543793px;
+		}
+
 		.author{
 			font-size: 70.17543793px;
 		}
@@ -27,6 +31,7 @@
 			font-size: 46.78362656px;
 		}
 	</style>
-	<text class="title" x="700" y="130">THIS VANCOUVER: STORIES OF COMMUNITY</text>
-	<text class="author" x="700" y="290">VANCOUVER PBLIC LIBRARY</text>
+	<text class="title" x="700" y="130">THIS VANCOUVER:</text>
+	<text class="title-small" x="700" y="230">STORIES OF COMMUNITY</text>
+	<text class="author" x="700" y="390">VANCOUVER PUBLIC LIBRARY</text>
 </svg>

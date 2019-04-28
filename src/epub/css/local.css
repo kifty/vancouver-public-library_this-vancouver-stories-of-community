@@ -14,5 +14,6 @@ abbr.acronym{
 }
 
 p.interviewer{
+	margin: 1.5em auto;
 	font-style: italic;
 }
